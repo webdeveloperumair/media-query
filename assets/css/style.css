@@ -1,0 +1,159 @@
+.head h1{
+    font-size: 100px;
+    font-weight: lighter;
+    text-align: center;
+}
+.box{
+    border: 1px solid #000;
+    width: 100%;
+    padding: 100px;
+    text-align: center;
+}
+/* Watch */
+@media only screen and  (max-width:300px) {
+    .desktop{
+        display: none;
+    }
+    .leptop{
+        display: none;
+    }
+    .landscap-tab{
+        display: none;
+    }
+    .potrait-tab{
+        display: none;
+    }
+    .phone{
+        display: none;
+    }
+    .s-phone{
+        display: none;
+    }
+    .watch{
+        display: block;
+    }
+}
+
+/*  Phone */
+@media only screen and  (min-width:300px) {
+    .desktop{
+        display: none;
+    }
+    .leptop{
+        display: none;
+    }
+    .landscap-tab{
+        display: none;
+    }
+    .potrait-tab{
+        display: none;
+    }
+    .phone{
+        display: block;
+    }
+    .watch{
+        display: none;
+    }
+}
+
+
+/*Potraita tablets and large phone*/
+@media only screen and (min-width:600px) {
+    .desktop{
+        display: none;
+    }
+    .leptop{
+        display: none;
+    }
+    .landscap-tab{
+        display: none;
+    }
+    .potrait-tab{
+        display: block;
+    }
+    .phone{
+        display: none;
+    }
+    .s-phone{
+        display: none;
+    }
+    .watch{
+        display: none;
+    }
+
+}
+
+/* Landscap Tablet */
+@media only screen and (min-width:768px) {
+    .desktop{
+        display: none;
+    }
+    .leptop{
+        display: none;
+    }
+    .landscap-tab{
+        display: block;
+    }
+    .potrait-tab{
+        display: none;
+    }
+    .phone{
+        display: none;
+    }
+    .s-phone{
+        display: none;
+    }
+    .watch{
+        display: none;
+    }
+}
+
+/* Leptop  */
+@media only screen and (min-width:992px) {
+    .desktop{
+        display: none;
+    }
+    .leptop{
+        display: block;
+    }
+    .landscap-tab{
+        display: none;
+    }
+    .potrait-tab{
+        display: none;
+    }
+    .phone{
+        display: none;
+    }
+    .s-phone{
+        display: none;
+    }
+    .watch{
+        display: none;
+    }
+}
+
+/*  Desktop */
+@media only screen and (min-width:1200px) {
+    .desktop{
+        display: block;
+    }
+    .leptop{
+        display: none;
+    }
+    .landscap-tab{
+        display: none;
+    }
+    .potrait-tab{
+        display: none;
+    }
+    .phone{
+        display: none;
+    }
+    .s-phone{
+        display: none;
+    }
+    .watch{
+        display: none;
+    }
+}
